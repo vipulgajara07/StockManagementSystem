@@ -6,7 +6,7 @@ class Product {
 	int stock;
 }
 
-interface ProductCRUD {
+interface ProductCRUD { //TODO THis should not be here. create sepearate java file for this interface
 	void addProduct();
 	void updateProduct();
 	void viewProduct();
